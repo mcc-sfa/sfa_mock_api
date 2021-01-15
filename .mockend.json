@@ -1,13 +1,13 @@
 {
-  "user": {
-    "id": "string",
-    "name": "string",
-    "usercode": "string",
-    "email": "string",
-    "password": "string",
-    "organisation": "string?",
-    "mtd_sales_target": "float?",
-    "mtd_sales": "float?",
-    "percentage_of_achievement": "float?"
+  "Post": {
+    "title": "string",
+    "views": "int",
+    "published": "boolean",
+    "createdAt": "date",
+    "comments": "Comment[]"
+  },
+  "Comment": {
+    "body": "string",
+    "post": "Post"
   }
 }
