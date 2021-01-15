@@ -1,5 +1,5 @@
 {
-  "user": {
+  "User": {
     "id": "string",
     "name": "string",
     "usercode": "string",
